@@ -13,7 +13,9 @@
 + (void)reloadHomeData
 {
     UITableViewController *vc = (UITableViewController *)NSClassFromString(@"Home_VC");
-    [vc.tableView reloadData];
+    if (vc) {
+        [vc.tableView reloadData];
+    }
 }
 
 @end
