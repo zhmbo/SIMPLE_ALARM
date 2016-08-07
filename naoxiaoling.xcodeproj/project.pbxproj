@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC9C5F1D4DA1FC004FE412 /* YanhuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9C5C1D4DA1FC004FE412 /* YanhuaViewController.m */; };
+		18AC9C601D4DA1FC004FE412 /* YQAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9C5E1D4DA1FC004FE412 /* YQAnimationLayer.m */; };
+		18AC9C671D4DA3A2004FE412 /* AppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9C661D4DA3A2004FE412 /* AppTool.m */; };
+		18AC9C6A1D4DA3C6004FE412 /* Fmdb_Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9C691D4DA3C6004FE412 /* Fmdb_Help.m */; };
+		6D02B1E41A6E696D00751482 /* 超可爱的嘟嘟嘟.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E31A6E696D00751482 /* 超可爱的嘟嘟嘟.m4r */; };
+		6D02B1F01A6E69CA00751482 /* 八音盒清新可爱风.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E51A6E69CA00751482 /* 八音盒清新可爱风.m4r */; };
+		6D02B1F11A6E69CA00751482 /* 大自然背景的清晨.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E61A6E69CA00751482 /* 大自然背景的清晨.m4r */; };
+		6D02B1F21A6E69CA00751482 /* 钢琴配乐的枕边.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E71A6E69CA00751482 /* 钢琴配乐的枕边.m4r */; };
+		6D02B1F31A6E69CA00751482 /* 超好听女声.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E81A6E69CA00751482 /* 超好听女声.m4r */; };
+		6D02B1F41A6E69CA00751482 /* 可爱的大猫和小猫.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1E91A6E69CA00751482 /* 可爱的大猫和小猫.m4r */; };
+		6D02B1F51A6E69CA00751482 /* 流水旋律.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1EA1A6E69CA00751482 /* 流水旋律.m4r */; };
+		6D02B1F61A6E69CA00751482 /* 最美妙的浪漫早晨.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1EB1A6E69CA00751482 /* 最美妙的浪漫早晨.m4r */; };
+		6D02B1F71A6E69CA00751482 /* 清脆自然.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1EC1A6E69CA00751482 /* 清脆自然.m4r */; };
+		6D02B1F81A6E69CA00751482 /* 熟睡中醒来.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1ED1A6E69CA00751482 /* 熟睡中醒来.m4r */; };
+		6D02B1F91A6E69CA00751482 /* 优美的音乐.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1EE1A6E69CA00751482 /* 优美的音乐.m4r */; };
+		6D02B1FA1A6E69CA00751482 /* 早晨温暖枕边声.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 6D02B1EF1A6E69CA00751482 /* 早晨温暖枕边声.m4r */; };
+		6D02D78D1C05A1C10072E391 /* WeekDays_Vc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D78C1C05A1C10072E391 /* WeekDays_Vc.m */; };
+		6D02D7931C05C0AE0072E391 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D78F1C05C0AE0072E391 /* CHANGELOG.md */; };
+		6D02D7941C05C0AE0072E391 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D7911C05C0AE0072E391 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D02D7951C05C0AE0072E391 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D7921C05C0AE0072E391 /* README.md */; };
+		6D02D7981C05CF890072E391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D02D7961C05CF890072E391 /* Main.storyboard */; };
+		6D60261A1C4DD8DB007B0A9C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6026191C4DD8DB007B0A9C /* MediaPlayer.framework */; };
+		6D646CDE1C06A1F8000C6200 /* Add_Alarm_Seting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D646CDD1C06A1F8000C6200 /* Add_Alarm_Seting.m */; };
+		6D646CE11C06D8D1000C6200 /* AlertBody_Vc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D646CE01C06D8D1000C6200 /* AlertBody_Vc.m */; };
+		6D646CE41C06EDCE000C6200 /* SoundName_Vc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D646CE31C06EDCE000C6200 /* SoundName_Vc.m */; };
+		6D64CF061C0EAB0800BDD18D /* PlaySoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D64CF051C0EAB0800BDD18D /* PlaySoundManager.m */; };
+		6D64CF081C0EABCC00BDD18D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D64CF071C0EABCC00BDD18D /* AudioToolbox.framework */; };
+		6D64CF4F1C0EF87800BDD18D /* 默认.aifc in Resources */ = {isa = PBXBuildFile; fileRef = 6D64CF4E1C0EF87800BDD18D /* 默认.aifc */; };
+		6D92C3C11BFDB5FB00BA59BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D92C3C01BFDB5FB00BA59BA /* Assets.xcassets */; };
+		6D92C3C41BFDB5FB00BA59BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D92C3C21BFDB5FB00BA59BA /* LaunchScreen.storyboard */; };
+		6D92C3CF1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3CE1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m */; };
+		6D92C3DA1BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3D91BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m */; };
+		6D92C3F21BFDB79C00BA59BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3EE1BFDB79C00BA59BA /* AppDelegate.m */; };
+		6D92C3F31BFDB79C00BA59BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3EF1BFDB79C00BA59BA /* main.m */; };
+		6D92C3F61BFDB8FB00BA59BA /* ZBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3F51BFDB8FB00BA59BA /* ZBTableViewController.m */; };
+		6D92C3F91BFDB92E00BA59BA /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3F81BFDB92E00BA59BA /* ZBNavigationController.m */; };
+		6D92C3FC1BFDB94600BA59BA /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C3FB1BFDB94600BA59BA /* ZBViewController.m */; };
+		6D92C4051BFDBD7800BA59BA /* HOME_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C4041BFDBD7800BA59BA /* HOME_VC.m */; };
+		6D92C4111BFDC49500BA59BA /* Home_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92C4101BFDC49500BA59BA /* Home_Cell.m */; };
+		6D92C4151BFDC59700BA59BA /* Home_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D92C4141BFDC59700BA59BA /* Home_Cell.xib */; };
+		6DA01E6B1C02BE1000332CBE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E6A1C02BE1000332CBE /* UIView+Extension.m */; };
+		6DA01E6E1C02D0D300332CBE /* Alarm_Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E6D1C02D0D300332CBE /* Alarm_Help.m */; };
+		6DA01E711C02E77B00332CBE /* Alarm_Help_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E701C02E77B00332CBE /* Alarm_Help_Model.m */; };
+		6DA01E7F1C031C9200332CBE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E751C031C9200332CBE /* FMDatabase.m */; };
+		6DA01E801C031C9200332CBE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E771C031C9200332CBE /* FMDatabaseAdditions.m */; };
+		6DA01E811C031C9200332CBE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E791C031C9200332CBE /* FMDatabasePool.m */; };
+		6DA01E821C031C9200332CBE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E7B1C031C9200332CBE /* FMDatabaseQueue.m */; };
+		6DA01E831C031C9200332CBE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA01E7E1C031C9200332CBE /* FMResultSet.m */; };
+		6DA01E851C031EE400332CBE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA01E841C031EE400332CBE /* libsqlite3.0.tbd */; };
+		6DDE7AFC1BFEFB6C00AE23BD /* Add_Alarm_Vc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE7AFB1BFEFB6C00AE23BD /* Add_Alarm_Vc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D92C3CB1BFDB5FB00BA59BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D92C3A91BFDB5FB00BA59BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D92C3B01BFDB5FB00BA59BA;
+			remoteInfo = SIMPLE_ALARM;
+		};
+		6D92C3D61BFDB5FB00BA59BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D92C3A91BFDB5FB00BA59BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D92C3B01BFDB5FB00BA59BA;
+			remoteInfo = SIMPLE_ALARM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AC9C5B1D4DA1FC004FE412 /* YanhuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YanhuaViewController.h; sourceTree = "<group>"; };
+		18AC9C5C1D4DA1FC004FE412 /* YanhuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YanhuaViewController.m; sourceTree = "<group>"; };
+		18AC9C5D1D4DA1FC004FE412 /* YQAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAnimationLayer.h; sourceTree = "<group>"; };
+		18AC9C5E1D4DA1FC004FE412 /* YQAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAnimationLayer.m; sourceTree = "<group>"; };
+		18AC9C651D4DA3A2004FE412 /* AppTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTool.h; sourceTree = "<group>"; };
+		18AC9C661D4DA3A2004FE412 /* AppTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTool.m; sourceTree = "<group>"; };
+		18AC9C681D4DA3C6004FE412 /* Fmdb_Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fmdb_Help.h; sourceTree = "<group>"; };
+		18AC9C691D4DA3C6004FE412 /* Fmdb_Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fmdb_Help.m; sourceTree = "<group>"; };
+		6D02B1E31A6E696D00751482 /* 超可爱的嘟嘟嘟.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "超可爱的嘟嘟嘟.m4r"; sourceTree = "<group>"; };
+		6D02B1E51A6E69CA00751482 /* 八音盒清新可爱风.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "八音盒清新可爱风.m4r"; sourceTree = "<group>"; };
+		6D02B1E61A6E69CA00751482 /* 大自然背景的清晨.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大自然背景的清晨.m4r"; sourceTree = "<group>"; };
+		6D02B1E71A6E69CA00751482 /* 钢琴配乐的枕边.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "钢琴配乐的枕边.m4r"; sourceTree = "<group>"; };
+		6D02B1E81A6E69CA00751482 /* 超好听女声.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "超好听女声.m4r"; sourceTree = "<group>"; };
+		6D02B1E91A6E69CA00751482 /* 可爱的大猫和小猫.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "可爱的大猫和小猫.m4r"; sourceTree = "<group>"; };
+		6D02B1EA1A6E69CA00751482 /* 流水旋律.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "流水旋律.m4r"; sourceTree = "<group>"; };
+		6D02B1EB1A6E69CA00751482 /* 最美妙的浪漫早晨.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最美妙的浪漫早晨.m4r"; sourceTree = "<group>"; };
+		6D02B1EC1A6E69CA00751482 /* 清脆自然.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "清脆自然.m4r"; sourceTree = "<group>"; };
+		6D02B1ED1A6E69CA00751482 /* 熟睡中醒来.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "熟睡中醒来.m4r"; sourceTree = "<group>"; };
+		6D02B1EE1A6E69CA00751482 /* 优美的音乐.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "优美的音乐.m4r"; sourceTree = "<group>"; };
+		6D02B1EF1A6E69CA00751482 /* 早晨温暖枕边声.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "早晨温暖枕边声.m4r"; sourceTree = "<group>"; };
+		6D02D78B1C05A1C10072E391 /* WeekDays_Vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekDays_Vc.h; sourceTree = "<group>"; };
+		6D02D78C1C05A1C10072E391 /* WeekDays_Vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekDays_Vc.m; sourceTree = "<group>"; };
+		6D02D78F1C05C0AE0072E391 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		6D02D7901C05C0AE0072E391 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		6D02D7911C05C0AE0072E391 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		6D02D7921C05C0AE0072E391 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D02D7971C05CF890072E391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6026191C4DD8DB007B0A9C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6D646CDC1C06A1F8000C6200 /* Add_Alarm_Seting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Alarm_Seting.h; sourceTree = "<group>"; };
+		6D646CDD1C06A1F8000C6200 /* Add_Alarm_Seting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Add_Alarm_Seting.m; sourceTree = "<group>"; };
+		6D646CDF1C06D8D1000C6200 /* AlertBody_Vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBody_Vc.h; sourceTree = "<group>"; };
+		6D646CE01C06D8D1000C6200 /* AlertBody_Vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBody_Vc.m; sourceTree = "<group>"; };
+		6D646CE21C06EDCE000C6200 /* SoundName_Vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundName_Vc.h; sourceTree = "<group>"; };
+		6D646CE31C06EDCE000C6200 /* SoundName_Vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundName_Vc.m; sourceTree = "<group>"; };
+		6D64CF041C0EAB0800BDD18D /* PlaySoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySoundManager.h; sourceTree = "<group>"; };
+		6D64CF051C0EAB0800BDD18D /* PlaySoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySoundManager.m; sourceTree = "<group>"; };
+		6D64CF071C0EABCC00BDD18D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6D64CF4E1C0EF87800BDD18D /* 默认.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "默认.aifc"; sourceTree = "<group>"; };
+		6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naoxiaoling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3C01BFDB5FB00BA59BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D92C3C31BFDB5FB00BA59BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D92C3C51BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naoxiaoling.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3CE1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMPLE_ALARMTests.m; sourceTree = "<group>"; };
+		6D92C3D01BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naoxiaoling.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3D91BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMPLE_ALARMUITests.m; sourceTree = "<group>"; };
+		6D92C3DB1BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D92C3ED1BFDB79C00BA59BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D92C3EE1BFDB79C00BA59BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D92C3EF1BFDB79C00BA59BA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D92C3F41BFDB8FB00BA59BA /* ZBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTableViewController.h; sourceTree = "<group>"; };
+		6D92C3F51BFDB8FB00BA59BA /* ZBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTableViewController.m; sourceTree = "<group>"; };
+		6D92C3F71BFDB92E00BA59BA /* ZBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNavigationController.h; sourceTree = "<group>"; };
+		6D92C3F81BFDB92E00BA59BA /* ZBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
+		6D92C3FA1BFDB94600BA59BA /* ZBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBViewController.h; sourceTree = "<group>"; };
+		6D92C3FB1BFDB94600BA59BA /* ZBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBViewController.m; sourceTree = "<group>"; };
+		6D92C4031BFDBD7800BA59BA /* HOME_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOME_VC.h; sourceTree = "<group>"; };
+		6D92C4041BFDBD7800BA59BA /* HOME_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOME_VC.m; sourceTree = "<group>"; };
+		6D92C40F1BFDC49500BA59BA /* Home_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_Cell.h; sourceTree = "<group>"; };
+		6D92C4101BFDC49500BA59BA /* Home_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_Cell.m; sourceTree = "<group>"; };
+		6D92C4141BFDC59700BA59BA /* Home_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Home_Cell.xib; sourceTree = "<group>"; };
+		6DA01E691C02BE1000332CBE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6DA01E6A1C02BE1000332CBE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6DA01E6C1C02D0D300332CBE /* Alarm_Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm_Help.h; sourceTree = "<group>"; };
+		6DA01E6D1C02D0D300332CBE /* Alarm_Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm_Help.m; sourceTree = "<group>"; };
+		6DA01E6F1C02E77B00332CBE /* Alarm_Help_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm_Help_Model.h; sourceTree = "<group>"; };
+		6DA01E701C02E77B00332CBE /* Alarm_Help_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm_Help_Model.m; sourceTree = "<group>"; };
+		6DA01E741C031C9200332CBE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6DA01E751C031C9200332CBE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6DA01E761C031C9200332CBE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6DA01E771C031C9200332CBE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6DA01E781C031C9200332CBE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6DA01E791C031C9200332CBE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6DA01E7A1C031C9200332CBE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6DA01E7B1C031C9200332CBE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6DA01E7C1C031C9200332CBE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6DA01E7D1C031C9200332CBE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6DA01E7E1C031C9200332CBE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6DA01E841C031EE400332CBE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6DDE7AEF1BFEF22B00AE23BD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6DDE7AFA1BFEFB6C00AE23BD /* Add_Alarm_Vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Alarm_Vc.h; sourceTree = "<group>"; };
+		6DDE7AFB1BFEFB6C00AE23BD /* Add_Alarm_Vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Add_Alarm_Vc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D92C3AE1BFDB5FB00BA59BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D60261A1C4DD8DB007B0A9C /* MediaPlayer.framework in Frameworks */,
+				6D64CF081C0EABCC00BDD18D /* AudioToolbox.framework in Frameworks */,
+				6DA01E851C031EE400332CBE /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3C71BFDB5FB00BA59BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3D21BFDB5FB00BA59BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC9C5A1D4DA1FC004FE412 /* 烟花动画 */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9C5B1D4DA1FC004FE412 /* YanhuaViewController.h */,
+				18AC9C5C1D4DA1FC004FE412 /* YanhuaViewController.m */,
+				18AC9C5D1D4DA1FC004FE412 /* YQAnimationLayer.h */,
+				18AC9C5E1D4DA1FC004FE412 /* YQAnimationLayer.m */,
+			);
+			path = "烟花动画";
+			sourceTree = "<group>";
+		};
+		18AC9C631D4DA348004FE412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D6026191C4DD8DB007B0A9C /* MediaPlayer.framework */,
+				6D64CF071C0EABCC00BDD18D /* AudioToolbox.framework */,
+				6DA01E841C031EE400332CBE /* libsqlite3.0.tbd */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		18AC9C641D4DA373004FE412 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9C681D4DA3C6004FE412 /* Fmdb_Help.h */,
+				18AC9C691D4DA3C6004FE412 /* Fmdb_Help.m */,
+				18AC9C651D4DA3A2004FE412 /* AppTool.h */,
+				18AC9C661D4DA3A2004FE412 /* AppTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6D02D78E1C05C0AE0072E391 /* JSONKit-master */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D78F1C05C0AE0072E391 /* CHANGELOG.md */,
+				6D02D7901C05C0AE0072E391 /* JSONKit.h */,
+				6D02D7911C05C0AE0072E391 /* JSONKit.m */,
+				6D02D7921C05C0AE0072E391 /* README.md */,
+			);
+			path = "JSONKit-master";
+			sourceTree = "<group>";
+		};
+		6D64CF031C0EAAA000BDD18D /* PlaySound_Help */ = {
+			isa = PBXGroup;
+			children = (
+				6D64CF041C0EAB0800BDD18D /* PlaySoundManager.h */,
+				6D64CF051C0EAB0800BDD18D /* PlaySoundManager.m */,
+			);
+			path = PlaySound_Help;
+			sourceTree = "<group>";
+		};
+		6D7DDE821C0D918F009319F1 /* Alarm_Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6D02B1E51A6E69CA00751482 /* 八音盒清新可爱风.m4r */,
+				6D02B1E61A6E69CA00751482 /* 大自然背景的清晨.m4r */,
+				6D02B1E71A6E69CA00751482 /* 钢琴配乐的枕边.m4r */,
+				6D02B1E81A6E69CA00751482 /* 超好听女声.m4r */,
+				6D02B1E91A6E69CA00751482 /* 可爱的大猫和小猫.m4r */,
+				6D02B1EA1A6E69CA00751482 /* 流水旋律.m4r */,
+				6D02B1EB1A6E69CA00751482 /* 最美妙的浪漫早晨.m4r */,
+				6D02B1EC1A6E69CA00751482 /* 清脆自然.m4r */,
+				6D02B1ED1A6E69CA00751482 /* 熟睡中醒来.m4r */,
+				6D02B1EE1A6E69CA00751482 /* 优美的音乐.m4r */,
+				6D02B1EF1A6E69CA00751482 /* 早晨温暖枕边声.m4r */,
+				6D02B1E31A6E696D00751482 /* 超可爱的嘟嘟嘟.m4r */,
+				6D64CF4E1C0EF87800BDD18D /* 默认.aifc */,
+			);
+			path = Alarm_Sounds;
+			sourceTree = "<group>";
+		};
+		6D92C3A81BFDB5FB00BA59BA = {
+			isa = PBXGroup;
+			children = (
+				6D92C3B31BFDB5FB00BA59BA /* SIMPLE_ALARM */,
+				6D92C3CD1BFDB5FB00BA59BA /* SIMPLE_ALARMTests */,
+				6D92C3D81BFDB5FB00BA59BA /* SIMPLE_ALARMUITests */,
+				6D92C3B21BFDB5FB00BA59BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D92C3B21BFDB5FB00BA59BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */,
+				6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */,
+				6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D92C3B31BFDB5FB00BA59BA /* SIMPLE_ALARM */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3E71BFDB79C00BA59BA /* Class */,
+				6D92C3B41BFDB5FB00BA59BA /* Supporting Files */,
+			);
+			path = SIMPLE_ALARM;
+			sourceTree = "<group>";
+		};
+		6D92C3B41BFDB5FB00BA59BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D7961C05CF890072E391 /* Main.storyboard */,
+				6D92C3C01BFDB5FB00BA59BA /* Assets.xcassets */,
+				6D92C3C21BFDB5FB00BA59BA /* LaunchScreen.storyboard */,
+				6D92C3C51BFDB5FB00BA59BA /* Info.plist */,
+				6DDE7AEF1BFEF22B00AE23BD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D92C3CD1BFDB5FB00BA59BA /* SIMPLE_ALARMTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3CE1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m */,
+				6D92C3D01BFDB5FB00BA59BA /* Info.plist */,
+			);
+			path = SIMPLE_ALARMTests;
+			sourceTree = "<group>";
+		};
+		6D92C3D81BFDB5FB00BA59BA /* SIMPLE_ALARMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3D91BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m */,
+				6D92C3DB1BFDB5FB00BA59BA /* Info.plist */,
+			);
+			path = SIMPLE_ALARMUITests;
+			sourceTree = "<group>";
+		};
+		6D92C3E71BFDB79C00BA59BA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6D7DDE821C0D918F009319F1 /* Alarm_Sounds */,
+				6D92C3E81BFDB79C00BA59BA /* Home */,
+				6DDE7AF01BFEFA4D00AE23BD /* Alarm_Add */,
+				6DDE7AF41BFEFA4D00AE23BD /* Alarm_Help */,
+				6D64CF031C0EAAA000BDD18D /* PlaySound_Help */,
+				6D92C3E91BFDB79C00BA59BA /* Main */,
+				18AC9C641D4DA373004FE412 /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6D92C3E81BFDB79C00BA59BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C4021BFDBD7800BA59BA /* ViewController */,
+				6D92C4011BFDBD7800BA59BA /* View */,
+				6D92C4001BFDBD7800BA59BA /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6D92C3E91BFDB79C00BA59BA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9C631D4DA348004FE412 /* Frameworks */,
+				6D92C3F11BFDB79C00BA59BA /* ViewController */,
+				6D92C3F01BFDB79C00BA59BA /* View */,
+				6D92C4161BFDDF5100BA59BA /* Model */,
+				6D92C3EB1BFDB79C00BA59BA /* Categray */,
+				6D92C3EA1BFDB79C00BA59BA /* 3rd */,
+				6D92C3EC1BFDB79C00BA59BA /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6D92C3EA1BFDB79C00BA59BA /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9C5A1D4DA1FC004FE412 /* 烟花动画 */,
+				6D02D78E1C05C0AE0072E391 /* JSONKit-master */,
+				6DA01E731C031C9200332CBE /* fmdb */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		6D92C3EB1BFDB79C00BA59BA /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+				6DA01E691C02BE1000332CBE /* UIView+Extension.h */,
+				6DA01E6A1C02BE1000332CBE /* UIView+Extension.m */,
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		6D92C3EC1BFDB79C00BA59BA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3ED1BFDB79C00BA59BA /* AppDelegate.h */,
+				6D92C3EE1BFDB79C00BA59BA /* AppDelegate.m */,
+				6D92C3EF1BFDB79C00BA59BA /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6D92C3F01BFDB79C00BA59BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D92C3F11BFDB79C00BA59BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C3F41BFDB8FB00BA59BA /* ZBTableViewController.h */,
+				6D92C3F51BFDB8FB00BA59BA /* ZBTableViewController.m */,
+				6D92C3F71BFDB92E00BA59BA /* ZBNavigationController.h */,
+				6D92C3F81BFDB92E00BA59BA /* ZBNavigationController.m */,
+				6D92C3FA1BFDB94600BA59BA /* ZBViewController.h */,
+				6D92C3FB1BFDB94600BA59BA /* ZBViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D92C4001BFDBD7800BA59BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D92C4011BFDBD7800BA59BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C40F1BFDC49500BA59BA /* Home_Cell.h */,
+				6D92C4101BFDC49500BA59BA /* Home_Cell.m */,
+				6D92C4141BFDC59700BA59BA /* Home_Cell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D92C4021BFDBD7800BA59BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D92C4031BFDBD7800BA59BA /* HOME_VC.h */,
+				6D92C4041BFDBD7800BA59BA /* HOME_VC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D92C4161BFDDF5100BA59BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DA01E731C031C9200332CBE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				6DA01E741C031C9200332CBE /* FMDatabase.h */,
+				6DA01E751C031C9200332CBE /* FMDatabase.m */,
+				6DA01E761C031C9200332CBE /* FMDatabaseAdditions.h */,
+				6DA01E771C031C9200332CBE /* FMDatabaseAdditions.m */,
+				6DA01E781C031C9200332CBE /* FMDatabasePool.h */,
+				6DA01E791C031C9200332CBE /* FMDatabasePool.m */,
+				6DA01E7A1C031C9200332CBE /* FMDatabaseQueue.h */,
+				6DA01E7B1C031C9200332CBE /* FMDatabaseQueue.m */,
+				6DA01E7C1C031C9200332CBE /* FMDB.h */,
+				6DA01E7D1C031C9200332CBE /* FMResultSet.h */,
+				6DA01E7E1C031C9200332CBE /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		6DDE7AF01BFEFA4D00AE23BD /* Alarm_Add */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE7AF31BFEFA4D00AE23BD /* ViewController */,
+				6DDE7AF21BFEFA4D00AE23BD /* View */,
+				6DDE7AF11BFEFA4D00AE23BD /* Model */,
+			);
+			path = Alarm_Add;
+			sourceTree = "<group>";
+		};
+		6DDE7AF11BFEFA4D00AE23BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D646CDC1C06A1F8000C6200 /* Add_Alarm_Seting.h */,
+				6D646CDD1C06A1F8000C6200 /* Add_Alarm_Seting.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DDE7AF21BFEFA4D00AE23BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DDE7AF31BFEFA4D00AE23BD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE7AFA1BFEFB6C00AE23BD /* Add_Alarm_Vc.h */,
+				6DDE7AFB1BFEFB6C00AE23BD /* Add_Alarm_Vc.m */,
+				6D02D78B1C05A1C10072E391 /* WeekDays_Vc.h */,
+				6D02D78C1C05A1C10072E391 /* WeekDays_Vc.m */,
+				6D646CDF1C06D8D1000C6200 /* AlertBody_Vc.h */,
+				6D646CE01C06D8D1000C6200 /* AlertBody_Vc.m */,
+				6D646CE21C06EDCE000C6200 /* SoundName_Vc.h */,
+				6D646CE31C06EDCE000C6200 /* SoundName_Vc.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6DDE7AF41BFEFA4D00AE23BD /* Alarm_Help */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE7AF51BFEFA4D00AE23BD /* Controller */,
+				6DDE7AF61BFEFA4D00AE23BD /* Model */,
+			);
+			path = Alarm_Help;
+			sourceTree = "<group>";
+		};
+		6DDE7AF51BFEFA4D00AE23BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DA01E6C1C02D0D300332CBE /* Alarm_Help.h */,
+				6DA01E6D1C02D0D300332CBE /* Alarm_Help.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DDE7AF61BFEFA4D00AE23BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DA01E6F1C02E77B00332CBE /* Alarm_Help_Model.h */,
+				6DA01E701C02E77B00332CBE /* Alarm_Help_Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaoling" */;
+			buildPhases = (
+				6D92C3AD1BFDB5FB00BA59BA /* Sources */,
+				6D92C3AE1BFDB5FB00BA59BA /* Frameworks */,
+				6D92C3AF1BFDB5FB00BA59BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naoxiaoling;
+			productName = SIMPLE_ALARM;
+			productReference = 6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D92C3C91BFDB5FB00BA59BA /* naoxiaolingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingTests" */;
+			buildPhases = (
+				6D92C3C61BFDB5FB00BA59BA /* Sources */,
+				6D92C3C71BFDB5FB00BA59BA /* Frameworks */,
+				6D92C3C81BFDB5FB00BA59BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D92C3CC1BFDB5FB00BA59BA /* PBXTargetDependency */,
+			);
+			name = naoxiaolingTests;
+			productName = SIMPLE_ALARMTests;
+			productReference = 6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D92C3D41BFDB5FB00BA59BA /* naoxiaolingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingUITests" */;
+			buildPhases = (
+				6D92C3D11BFDB5FB00BA59BA /* Sources */,
+				6D92C3D21BFDB5FB00BA59BA /* Frameworks */,
+				6D92C3D31BFDB5FB00BA59BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D92C3D71BFDB5FB00BA59BA /* PBXTargetDependency */,
+			);
+			name = naoxiaolingUITests;
+			productName = SIMPLE_ALARMUITests;
+			productReference = 6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D92C3A91BFDB5FB00BA59BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhangbao;
+				TargetAttributes = {
+					6D92C3B01BFDB5FB00BA59BA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = AJNC45ZSHF;
+					};
+					6D92C3C91BFDB5FB00BA59BA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6D92C3B01BFDB5FB00BA59BA;
+					};
+					6D92C3D41BFDB5FB00BA59BA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6D92C3B01BFDB5FB00BA59BA;
+					};
+				};
+			};
+			buildConfigurationList = 6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "naoxiaoling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D92C3A81BFDB5FB00BA59BA;
+			productRefGroup = 6D92C3B21BFDB5FB00BA59BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */,
+				6D92C3C91BFDB5FB00BA59BA /* naoxiaolingTests */,
+				6D92C3D41BFDB5FB00BA59BA /* naoxiaolingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D92C3AF1BFDB5FB00BA59BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02B1F91A6E69CA00751482 /* 优美的音乐.m4r in Resources */,
+				6D02B1F61A6E69CA00751482 /* 最美妙的浪漫早晨.m4r in Resources */,
+				6D02B1F71A6E69CA00751482 /* 清脆自然.m4r in Resources */,
+				6D02B1F81A6E69CA00751482 /* 熟睡中醒来.m4r in Resources */,
+				6D64CF4F1C0EF87800BDD18D /* 默认.aifc in Resources */,
+				6D02D7981C05CF890072E391 /* Main.storyboard in Resources */,
+				6D02B1F41A6E69CA00751482 /* 可爱的大猫和小猫.m4r in Resources */,
+				6D02B1F51A6E69CA00751482 /* 流水旋律.m4r in Resources */,
+				6D02B1FA1A6E69CA00751482 /* 早晨温暖枕边声.m4r in Resources */,
+				6D02B1F31A6E69CA00751482 /* 超好听女声.m4r in Resources */,
+				6D92C3C41BFDB5FB00BA59BA /* LaunchScreen.storyboard in Resources */,
+				6D02B1F01A6E69CA00751482 /* 八音盒清新可爱风.m4r in Resources */,
+				6D02B1F21A6E69CA00751482 /* 钢琴配乐的枕边.m4r in Resources */,
+				6D92C3C11BFDB5FB00BA59BA /* Assets.xcassets in Resources */,
+				6D92C4151BFDC59700BA59BA /* Home_Cell.xib in Resources */,
+				6D02B1F11A6E69CA00751482 /* 大自然背景的清晨.m4r in Resources */,
+				6D02B1E41A6E696D00751482 /* 超可爱的嘟嘟嘟.m4r in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3C81BFDB5FB00BA59BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3D31BFDB5FB00BA59BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D92C3AD1BFDB5FB00BA59BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA01E6B1C02BE1000332CBE /* UIView+Extension.m in Sources */,
+				6DA01E711C02E77B00332CBE /* Alarm_Help_Model.m in Sources */,
+				6DDE7AFC1BFEFB6C00AE23BD /* Add_Alarm_Vc.m in Sources */,
+				18AC9C601D4DA1FC004FE412 /* YQAnimationLayer.m in Sources */,
+				6D646CDE1C06A1F8000C6200 /* Add_Alarm_Seting.m in Sources */,
+				6DA01E7F1C031C9200332CBE /* FMDatabase.m in Sources */,
+				6D92C3F61BFDB8FB00BA59BA /* ZBTableViewController.m in Sources */,
+				6D02D7941C05C0AE0072E391 /* JSONKit.m in Sources */,
+				6DA01E821C031C9200332CBE /* FMDatabaseQueue.m in Sources */,
+				6DA01E831C031C9200332CBE /* FMResultSet.m in Sources */,
+				6D02D78D1C05A1C10072E391 /* WeekDays_Vc.m in Sources */,
+				18AC9C671D4DA3A2004FE412 /* AppTool.m in Sources */,
+				6D92C3F31BFDB79C00BA59BA /* main.m in Sources */,
+				6D92C3F21BFDB79C00BA59BA /* AppDelegate.m in Sources */,
+				6D02D7931C05C0AE0072E391 /* CHANGELOG.md in Sources */,
+				6D92C4111BFDC49500BA59BA /* Home_Cell.m in Sources */,
+				6D646CE11C06D8D1000C6200 /* AlertBody_Vc.m in Sources */,
+				6D646CE41C06EDCE000C6200 /* SoundName_Vc.m in Sources */,
+				18AC9C5F1D4DA1FC004FE412 /* YanhuaViewController.m in Sources */,
+				6DA01E801C031C9200332CBE /* FMDatabaseAdditions.m in Sources */,
+				6D92C4051BFDBD7800BA59BA /* HOME_VC.m in Sources */,
+				18AC9C6A1D4DA3C6004FE412 /* Fmdb_Help.m in Sources */,
+				6DA01E6E1C02D0D300332CBE /* Alarm_Help.m in Sources */,
+				6DA01E811C031C9200332CBE /* FMDatabasePool.m in Sources */,
+				6D92C3F91BFDB92E00BA59BA /* ZBNavigationController.m in Sources */,
+				6D92C3FC1BFDB94600BA59BA /* ZBViewController.m in Sources */,
+				6D64CF061C0EAB0800BDD18D /* PlaySoundManager.m in Sources */,
+				6D02D7951C05C0AE0072E391 /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3C61BFDB5FB00BA59BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D92C3CF1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D92C3D11BFDB5FB00BA59BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D92C3DA1BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D92C3CC1BFDB5FB00BA59BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */;
+			targetProxy = 6D92C3CB1BFDB5FB00BA59BA /* PBXContainerItemProxy */;
+		};
+		6D92C3D71BFDB5FB00BA59BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */;
+			targetProxy = 6D92C3D61BFDB5FB00BA59BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D02D7961C05CF890072E391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D02D7971C05CF890072E391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D92C3C21BFDB5FB00BA59BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D92C3C31BFDB5FB00BA59BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D92C3DC1BFDB5FB00BA59BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D92C3DD1BFDB5FB00BA59BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D92C3DF1BFDB5FB00BA59BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SIMPLE_ALARM/PrefixHeader.pch/";
+				INFOPLIST_FILE = SIMPLE_ALARM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARM";
+				PRODUCT_NAME = naoxiaoling;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6D92C3E01BFDB5FB00BA59BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SIMPLE_ALARM/PrefixHeader.pch/";
+				INFOPLIST_FILE = SIMPLE_ALARM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARM";
+				PRODUCT_NAME = naoxiaoling;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6D92C3E21BFDB5FB00BA59BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SIMPLE_ALARMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMTests";
+				PRODUCT_NAME = naoxiaoling;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naoxiaoling.app/naoxiaoling";
+			};
+			name = Debug;
+		};
+		6D92C3E31BFDB5FB00BA59BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SIMPLE_ALARMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMTests";
+				PRODUCT_NAME = naoxiaoling;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naoxiaoling.app/naoxiaoling";
+			};
+			name = Release;
+		};
+		6D92C3E51BFDB5FB00BA59BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SIMPLE_ALARMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMUITests";
+				PRODUCT_NAME = naoxiaoling;
+				TEST_TARGET_NAME = SIMPLE_ALARM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D92C3E61BFDB5FB00BA59BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SIMPLE_ALARMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMUITests";
+				PRODUCT_NAME = naoxiaoling;
+				TEST_TARGET_NAME = SIMPLE_ALARM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "naoxiaoling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D92C3DC1BFDB5FB00BA59BA /* Debug */,
+				6D92C3DD1BFDB5FB00BA59BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaoling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D92C3DF1BFDB5FB00BA59BA /* Debug */,
+				6D92C3E01BFDB5FB00BA59BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D92C3E21BFDB5FB00BA59BA /* Debug */,
+				6D92C3E31BFDB5FB00BA59BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D92C3E51BFDB5FB00BA59BA /* Debug */,
+				6D92C3E61BFDB5FB00BA59BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D92C3A91BFDB5FB00BA59BA /* Project object */;
+}

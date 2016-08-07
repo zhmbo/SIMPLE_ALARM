@@ -1,0 +1,85 @@
+//
+//  PrefixHeader.pch
+//  SIMPLE_ALARM
+//
+//  Created by 张宝 on 15/11/20.
+//  Copyright © 2015年 zhangbao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/*
+星期
+星期一：Mon.=Monday
+星期二：Tues.=Tuesday
+星期三：Wed.=Wednesday
+星期四：Thur.=Thursday
+星期五：Fri.=Friday
+星期六：Sat.=Saturday
+星期天：Sun.=Sunday
+月份
+一月份＝JAN.Jan.=January
+二月份＝FEB.Feb.=February
+三月份＝MAR.Mar.=March
+四月份＝APR.Apr.=April
+五月份＝MAY May=May
+六月份＝JUN.Jun.=June
+七月份＝JUL.Jul.=July
+八月份＝AUG.Aug.=August
+九月份＝SEP.Sept.=September
+十月份＝OCT.Oct.=October
+十一月份＝NOV.Nov.=November
+十二月份＝DEC.Dec.=December
+ */
+
+#import "UIView+Extension.h"
+#import "AppTool.h"
+
+#define ALARMDOCUMENTPATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"alarm.sqlite"] // 铃声本地存储路径
+
+#define KAlarmLocalNotificationKey @"KAlarmLocalNotificationKey" // 重复通知标示
+#define KAlarmLocalNotificationKeyOfSmallSleep @"KAlarmLocalNotificationKeyOfSmallSleep" // 小睡通知标示
+#define KAlarmLocalNotificationKeyNotRepeat @"KAlarmLocalNotificationKeyNotRepeat" // 不重复通知标示
+#define KAlarmLocalNotificationKeyEveryDay @"KAlarmLocalNotificationKeyEveryDay" // 每天
+//#define KAlarmLocalNotificationKeyOneDay @"KAlarmLocalNotificationKeyOneDay" // 一天
+
+#define ALARMBACKGROUDCOLOR COLOR_RGB(238, 238, 243) // 背景
+#define ALARMTHEMERED COLOR_RGB(255, 130, 204) // 粉色255、153、204
+
+//#define Sunday [weekDayTransformTool inPutCurrentWeekDay:7] // 星期日
+//#define Monday [weekDayTransformTool inPutCurrentWeekDay:1] // 星期一
+//#define Tuesday [weekDayTransformTool inPutCurrentWeekDay:2] // 星期二
+//#define Wednesday [weekDayTransformTool inPutCurrentWeekDay:3] // 星期三
+//#define Thursday [weekDayTransformTool inPutCurrentWeekDay:4] // 星期四
+//#define Friday [weekDayTransformTool inPutCurrentWeekDay:5] // 星期五
+//#define Saturday [weekDayTransformTool inPutCurrentWeekDay:6] // 星期六
+
+#define WEEKDAYS @[@"星期日", @"星期一", @"星期二", @"星期三", @"星期四", @"星期五", @"星期六"]
+#define ALARMSOUNDNAMES @[@"默认.aifc", @"八音盒清新可爱风.m4r", @"大自然背景的清晨.m4r", @"钢琴配乐的枕边.m4r", @"超好听女声.m4r", @"可爱的大猫和小猫.m4r", @"流水旋律.m4r", @"最美妙的浪漫早晨.m4r", @"清脆自然.m4r", @"熟睡中醒来.m4r", @"优美的音乐.m4r", @"早晨温暖枕边声.m4r", @"超可爱的嘟嘟嘟.m4r"]
+
+#define COLOR_RGB(r, g, b) [UIColor colorWithRed:(r)/256.0f green:(g)/256.0f blue:(b)/256.0f alpha:1]
+#define RANDOMCOLOR  COLOR_RGB(arc4random() % 256, arc4random() % 256, arc4random() % 256)
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+/** 日志数出 */
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...)
+#endif
+
+#define BUNDLEVERSIONKEYCURRENT [[[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey] floatValue]
+#define BUNDLEVERSIONKEYOLD [[NSUserDefaults standardUserDefaults] floatForKey:@"BUNDLEVERSIONKEYOLD"]
+#define SETBUNDLEVERSIONKEYOLD  [[NSUserDefaults standardUserDefaults] setFloat:BUNDLEVERSIONKEYCURRENT forKey:@"BUNDLEVERSIONKEYOLD"]
+#define FIRSTINSTALL BUNDLEVERSIONKEYCURRENT > BUNDLEVERSIONKEYOLD ? YES : NO
+
+#define INITALARM if (FIRSTINSTALL) { \
+                      SETBUNDLEVERSIONKEYOLD; \
+                      [[UIApplication sharedApplication] cancelAllLocalNotifications];\
+                   }
+
+#endif /* PrefixHeader_pch */
