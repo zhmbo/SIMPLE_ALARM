@@ -291,7 +291,7 @@
     _MainNotification.alertBody = _30sNotification.alertBody = body;
     _MainNotification.alertAction = _30sNotification.alertAction = NSLocalizedString(body, nil);
     //    notification.hasAction = YES;
-    _MainNotification.alertTitle = _30sNotification.alertAction = @"简单闹铃";
+//    _MainNotification.alertTitle = _30sNotification.alertTitle = @"简单闹铃";
     // 通知被触发时播放的声音
     _MainNotification.soundName = _30sNotification.soundName = soundName;
     // 设置重复的间隔

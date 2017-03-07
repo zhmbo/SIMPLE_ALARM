@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D92C3B01BFDB5FB00BA59BA"
-               BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.app"
-               BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;"
-               ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
+               BuildableName = "SIMPLE_ALARM.app"
+               BlueprintName = "SIMPLE_ALARM"
+               ReferencedContainer = "container:SIMPLE_ALARM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D92C3C91BFDB5FB00BA59BA"
-               BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.xctest"
-               BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;Tests"
-               ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D92C3D41BFDB5FB00BA59BA"
-               BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.xctest"
-               BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;UITests"
-               ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D92C3B01BFDB5FB00BA59BA"
-            BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.app"
-            BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;"
-            ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
+            BuildableName = "SIMPLE_ALARM.app"
+            BlueprintName = "SIMPLE_ALARM"
+            ReferencedContainer = "container:SIMPLE_ALARM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D92C3B01BFDB5FB00BA59BA"
-            BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.app"
-            BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;"
-            ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
+            BuildableName = "SIMPLE_ALARM.app"
+            BlueprintName = "SIMPLE_ALARM"
+            ReferencedContainer = "container:SIMPLE_ALARM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D92C3B01BFDB5FB00BA59BA"
-            BuildableName = "&#x516d;&#x70b9;&#x4e00;&#x523b;.app"
-            BlueprintName = "&#x516d;&#x70b9;&#x4e00;&#x523b;"
-            ReferencedContainer = "container:&#x516d;&#x70b9;&#x4e00;&#x523b;.xcodeproj">
+            BuildableName = "SIMPLE_ALARM.app"
+            BlueprintName = "SIMPLE_ALARM"
+            ReferencedContainer = "container:SIMPLE_ALARM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

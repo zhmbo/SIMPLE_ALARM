@@ -115,14 +115,14 @@
 		6D64CF051C0EAB0800BDD18D /* PlaySoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySoundManager.m; sourceTree = "<group>"; };
 		6D64CF071C0EABCC00BDD18D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6D64CF4E1C0EF87800BDD18D /* 默认.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "默认.aifc"; sourceTree = "<group>"; };
-		6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naoxiaoling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3B11BFDB5FB00BA59BA /* SIMPLE_ALARM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIMPLE_ALARM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D92C3C01BFDB5FB00BA59BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D92C3C31BFDB5FB00BA59BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D92C3C51BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naoxiaoling.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3CA1BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMPLE_ALARM.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D92C3CE1BFDB5FB00BA59BA /* SIMPLE_ALARMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMPLE_ALARMTests.m; sourceTree = "<group>"; };
 		6D92C3D01BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naoxiaoling.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92C3D51BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMPLE_ALARM.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D92C3D91BFDB5FB00BA59BA /* SIMPLE_ALARMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMPLE_ALARMUITests.m; sourceTree = "<group>"; };
 		6D92C3DB1BFDB5FB00BA59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D92C3ED1BFDB79C00BA59BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -275,9 +275,9 @@
 		6D92C3B21BFDB5FB00BA59BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */,
-				6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */,
-				6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */,
+				6D92C3B11BFDB5FB00BA59BA /* SIMPLE_ALARM.app */,
+				6D92C3CA1BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */,
+				6D92C3D51BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -530,9 +530,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */ = {
+		6D92C3B01BFDB5FB00BA59BA /* SIMPLE_ALARM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaoling" */;
+			buildConfigurationList = 6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARM" */;
 			buildPhases = (
 				6D92C3AD1BFDB5FB00BA59BA /* Sources */,
 				6D92C3AE1BFDB5FB00BA59BA /* Frameworks */,
@@ -542,14 +542,14 @@
 			);
 			dependencies = (
 			);
-			name = naoxiaoling;
+			name = SIMPLE_ALARM;
 			productName = SIMPLE_ALARM;
-			productReference = 6D92C3B11BFDB5FB00BA59BA /* naoxiaoling.app */;
+			productReference = 6D92C3B11BFDB5FB00BA59BA /* SIMPLE_ALARM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D92C3C91BFDB5FB00BA59BA /* naoxiaolingTests */ = {
+		6D92C3C91BFDB5FB00BA59BA /* SIMPLE_ALARMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingTests" */;
+			buildConfigurationList = 6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARMTests" */;
 			buildPhases = (
 				6D92C3C61BFDB5FB00BA59BA /* Sources */,
 				6D92C3C71BFDB5FB00BA59BA /* Frameworks */,
@@ -560,14 +560,14 @@
 			dependencies = (
 				6D92C3CC1BFDB5FB00BA59BA /* PBXTargetDependency */,
 			);
-			name = naoxiaolingTests;
+			name = SIMPLE_ALARMTests;
 			productName = SIMPLE_ALARMTests;
-			productReference = 6D92C3CA1BFDB5FB00BA59BA /* naoxiaoling.xctest */;
+			productReference = 6D92C3CA1BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6D92C3D41BFDB5FB00BA59BA /* naoxiaolingUITests */ = {
+		6D92C3D41BFDB5FB00BA59BA /* SIMPLE_ALARMUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingUITests" */;
+			buildConfigurationList = 6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARMUITests" */;
 			buildPhases = (
 				6D92C3D11BFDB5FB00BA59BA /* Sources */,
 				6D92C3D21BFDB5FB00BA59BA /* Frameworks */,
@@ -578,9 +578,9 @@
 			dependencies = (
 				6D92C3D71BFDB5FB00BA59BA /* PBXTargetDependency */,
 			);
-			name = naoxiaolingUITests;
+			name = SIMPLE_ALARMUITests;
 			productName = SIMPLE_ALARMUITests;
-			productReference = 6D92C3D51BFDB5FB00BA59BA /* naoxiaoling.xctest */;
+			productReference = 6D92C3D51BFDB5FB00BA59BA /* SIMPLE_ALARM.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -606,7 +606,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "naoxiaoling" */;
+			buildConfigurationList = 6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "SIMPLE_ALARM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -619,9 +619,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */,
-				6D92C3C91BFDB5FB00BA59BA /* naoxiaolingTests */,
-				6D92C3D41BFDB5FB00BA59BA /* naoxiaolingUITests */,
+				6D92C3B01BFDB5FB00BA59BA /* SIMPLE_ALARM */,
+				6D92C3C91BFDB5FB00BA59BA /* SIMPLE_ALARMTests */,
+				6D92C3D41BFDB5FB00BA59BA /* SIMPLE_ALARMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -724,12 +724,12 @@
 /* Begin PBXTargetDependency section */
 		6D92C3CC1BFDB5FB00BA59BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */;
+			target = 6D92C3B01BFDB5FB00BA59BA /* SIMPLE_ALARM */;
 			targetProxy = 6D92C3CB1BFDB5FB00BA59BA /* PBXContainerItemProxy */;
 		};
 		6D92C3D71BFDB5FB00BA59BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D92C3B01BFDB5FB00BA59BA /* naoxiaoling */;
+			target = 6D92C3B01BFDB5FB00BA59BA /* SIMPLE_ALARM */;
 			targetProxy = 6D92C3D61BFDB5FB00BA59BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -845,7 +845,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARM";
-				PRODUCT_NAME = naoxiaoling;
+				PRODUCT_NAME = SIMPLE_ALARM;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -861,7 +861,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARM";
-				PRODUCT_NAME = naoxiaoling;
+				PRODUCT_NAME = SIMPLE_ALARM;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -873,8 +873,8 @@
 				INFOPLIST_FILE = SIMPLE_ALARMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMTests";
-				PRODUCT_NAME = naoxiaoling;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naoxiaoling.app/naoxiaoling";
+				PRODUCT_NAME = SIMPLE_ALARM;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMPLE_ALARM.app/SIMPLE_ALARM";
 			};
 			name = Debug;
 		};
@@ -885,8 +885,8 @@
 				INFOPLIST_FILE = SIMPLE_ALARMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMTests";
-				PRODUCT_NAME = naoxiaoling;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naoxiaoling.app/naoxiaoling";
+				PRODUCT_NAME = SIMPLE_ALARM;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMPLE_ALARM.app/SIMPLE_ALARM";
 			};
 			name = Release;
 		};
@@ -896,7 +896,7 @@
 				INFOPLIST_FILE = SIMPLE_ALARMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMUITests";
-				PRODUCT_NAME = naoxiaoling;
+				PRODUCT_NAME = SIMPLE_ALARM;
 				TEST_TARGET_NAME = SIMPLE_ALARM;
 				USES_XCTRUNNER = YES;
 			};
@@ -908,7 +908,7 @@
 				INFOPLIST_FILE = SIMPLE_ALARMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangbao.SIMPLE-ALARMUITests";
-				PRODUCT_NAME = naoxiaoling;
+				PRODUCT_NAME = SIMPLE_ALARM;
 				TEST_TARGET_NAME = SIMPLE_ALARM;
 				USES_XCTRUNNER = YES;
 			};
@@ -917,7 +917,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "naoxiaoling" */ = {
+		6D92C3AC1BFDB5FB00BA59BA /* Build configuration list for PBXProject "SIMPLE_ALARM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D92C3DC1BFDB5FB00BA59BA /* Debug */,
@@ -926,7 +926,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaoling" */ = {
+		6D92C3DE1BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D92C3DF1BFDB5FB00BA59BA /* Debug */,
@@ -935,7 +935,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingTests" */ = {
+		6D92C3E11BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D92C3E21BFDB5FB00BA59BA /* Debug */,
@@ -944,7 +944,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "naoxiaolingUITests" */ = {
+		6D92C3E41BFDB5FB00BA59BA /* Build configuration list for PBXNativeTarget "SIMPLE_ALARMUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D92C3E51BFDB5FB00BA59BA /* Debug */,
