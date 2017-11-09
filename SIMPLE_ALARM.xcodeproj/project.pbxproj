@@ -594,7 +594,7 @@
 				TargetAttributes = {
 					6D92C3B01BFDB5FB00BA59BA = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = AJNC45ZSHF;
+						DevelopmentTeam = 487PQPPTGA;
 					};
 					6D92C3C91BFDB5FB00BA59BA = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -840,6 +840,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SIMPLE_ALARM/PrefixHeader.pch/";
 				INFOPLIST_FILE = SIMPLE_ALARM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -856,6 +857,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SIMPLE_ALARM/PrefixHeader.pch/";
 				INFOPLIST_FILE = SIMPLE_ALARM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
